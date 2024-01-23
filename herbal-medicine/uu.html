@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <script src="https://kit.fontawesome.com/a556fe87b1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="/js/validation.js" defer></script>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <ul>
+                
+                <li><a href="#">About Us!</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="login2.php">Login</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form-box">
+            <h1 style="color: #EEEEEE;">Welcome to Wonderscape</h1>
+            <h3>Sign Up to Continue</h3>
+            <form action="process-signup.php" method="post" id="signupForm" novalidate>
+                
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        
+                        <input type="text" id="name" name="name"placeholder="Name">
+                    </div>
+                </div>
+               
+               
+               
+               
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="password" id="password" name="password"placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password_confirmation" name="password_confirmation"placeholder="password_confirmation">
+                    </div>
+
+                    <p>login <a href="login2.php">Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
