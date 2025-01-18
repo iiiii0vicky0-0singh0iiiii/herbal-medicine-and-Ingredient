@@ -126,9 +126,8 @@ For questions or feedback, please reach out:
 
 ---
 
-![Dynamic Visual](https://upload.wikimedia.org/wikipedia/commons/d/d3/Herbal_Medicine.gif)
+![Dynamic Visual](./assets/Herbal_Medicine.gif)
 
-![Herbal Medicine Icon](https://upload.wikimedia.org/wikipedia/commons/3/37/Herbal_icon.png)
 
-![Herbal Remedy Example](https://upload.wikimedia.org/wikipedia/commons/7/7b/Turmeric_root.jpg)
+
 
