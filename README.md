@@ -45,8 +45,6 @@ Explore the world of natural medicines, focusing on formulations, ingredients, a
 
 2. **Install Dependencies**
    ```bash
-   # For Python/Flask
-   pip install -r requirements.txt
 
    # For Node.js
    npm install
@@ -54,8 +52,7 @@ Explore the world of natural medicines, focusing on formulations, ingredients, a
 
 3. **Run the Application**
    ```bash
-   # Flask Application
-   python app.py
+
 
    # Node.js Application
    npm start
@@ -114,19 +111,7 @@ We welcome contributions to make this project even better!
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
----
-
-## 📧 Contact
-For questions or feedback, please reach out:
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
-
----
-
-![Dynamic Visual](./assets/Herbal_Medicine.gif)
 
 
 
