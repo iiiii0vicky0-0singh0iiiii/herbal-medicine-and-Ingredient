@@ -1,15 +1,6 @@
 <?php
 /* 'dosage_and_administration' => ' Paracetamol is a commonly used medicine that can help treat pain and reduce a high temperature fever Its typicallyIndications and Usage' => 'Paracetamol is a medicine */$apiEndpoint = 'https://api.fda.gov/drug/label.json';
-
-$commonMedicines = [
-    'paracetamol' => [
-        'dosage_and_administration' => ' Paracetamol is a commonly used medicine that can help treat pain and reduce a high temperature fever Its typically used to relieve mild or moderate pain, such as headaches, toothache or sprains, and reduce fevers caused by illnesses such as colds and flu',
-        'Indications and Usage' => 'Paracetamol is a medicine used to treat mild to moderate pain. Paracetamol can also be used to treat fever (high temperature). Its dangerous to take more than the recommended dose of paracetamol',
-       
-    ],
-    
-];
-
+ 
 $searchQuery = '';
 $searchResults = [];
 
@@ -17,9 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     $searchQuery = strtolower($_POST['search_query']);
 
-    if (isset($commonMedicines[$searchQuery])) {
+    if (isset($ [$searchQuery])) {
      
-        $result = $commonMedicines[$searchQuery];
+        $result = $[$searchQuery];
         displayMedicineInformation($result);
     } else {        
         $queryParameters = [
