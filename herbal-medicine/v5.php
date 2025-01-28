@@ -4,6 +4,8 @@
 $searchQuery = '';
 $searchResults = [];
 
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     $searchQuery = strtolower($_POST['search_query']);
@@ -22,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($response !== false) {          
             $searchResults = json_decode($response, true);
 
+         
             if ($searchResults === null && json_last_error() !== JSON_ERROR_NONE) {
                 die('Error decoding OpenFDA JSON data: ' . json_last_error_msg());
             }
@@ -46,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-
+// output result on screen
 function displayMedicineInformation($result) {
     echo '<div class="search-results">';
     echo '<h3>Medicine Information:</h3>';
