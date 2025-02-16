@@ -110,9 +110,7 @@ We welcome contributions to make this project even better!
    git commit -m "Added new feature"
    git push origin feature-name
    ```
-4. Submit a Pull Request.
 
----
 
 
 
